@@ -1,0 +1,6 @@
+seq=input("Enter csv seq:")
+print(seq)
+res=seq.split(",")
+print(res)
+res.sort()
+print(",".join(res))
